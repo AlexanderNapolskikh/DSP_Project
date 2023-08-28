@@ -13,4 +13,6 @@ _ЦОС. Анализатор спектра - прибор для наблюд�
 ***_Графический интерфейс приложения_***
 ![image](https://github.com/AlexanderNapolskikh/DSP_Project/assets/130779412/d0a46675-4b54-4a6c-bf01-486c0feb230b)
 
+***_UML (Class)_***
+![image](https://github.com/AlexanderNapolskikh/DSP_Project/assets/130779412/e3a0e194-c92b-41b5-b219-561d9225fd5e)
 

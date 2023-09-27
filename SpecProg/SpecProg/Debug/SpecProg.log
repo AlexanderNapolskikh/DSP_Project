@@ -1,2 +1,3 @@
 ﻿  DigitalApp.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(9,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   SpecProg.vcxproj -> C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\Debug\SpecProg.exe

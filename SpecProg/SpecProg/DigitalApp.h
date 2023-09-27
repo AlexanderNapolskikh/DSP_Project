@@ -8,9 +8,15 @@ class DigitalApp
 
 private:
 	sf::RenderWindow window;
+	// Controls panel
 	CtrlPan controls;
+	// Window showInfo about signal
 	ShowWind upGraph;
 	ShowWind lowGraph;
+	//Label data
+
+	// Clear, stop flag
+	bool flagClS = false;
 
 public:
 	DigitalApp();

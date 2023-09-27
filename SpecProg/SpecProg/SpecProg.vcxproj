@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="CtrlPan.cpp" />
     <ClCompile Include="DigitalApp.cpp" />
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Polyline.cpp" />
+    <ClCompile Include="RadioButton.cpp" />
     <ClCompile Include="ShowWind.cpp" />
     <ClCompile Include="SpecProg.cpp" />
   </ItemGroup>
@@ -150,11 +152,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="CtrlPan.h" />
     <ClInclude Include="DigitalApp.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Polyline.h" />
+    <ClInclude Include="RadioButton.h" />
     <ClInclude Include="ShowWind.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

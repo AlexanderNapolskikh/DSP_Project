@@ -1,3 +1,4 @@
-﻿  DigitalApp.cpp
+﻿  Label.cpp
 C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(9,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Label.cpp(27,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   SpecProg.vcxproj -> C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\Debug\SpecProg.exe

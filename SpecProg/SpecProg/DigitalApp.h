@@ -2,6 +2,7 @@
 
 #include "ShowWind.h"
 #include "CtrlPan.h"
+#include "Label.h"
 
 class DigitalApp
 {
@@ -13,8 +14,9 @@ private:
 	// Window showInfo about signal
 	ShowWind upGraph;
 	ShowWind lowGraph;
-	//Label data
-
+	// Label data
+	std::vector<Label> freqLabel;
+	std::vector<Label> dBLabel;
 	// Clear, stop flag
 	bool flagClS = false;
 

@@ -22,7 +22,11 @@ private:
 public:
 	Label(sf::Vector2f size, sf::Vector2f position, sf::Color colorBack, int fontSize);
 	void render(sf::RenderWindow& window);
+	sf::RectangleShape& getRectangle();
 	void setText(std::string str);
+	void addText(std::string str);
+	void deleteText();
 	void setTitleText(std::string str);
+	std::string getText();
 };
 

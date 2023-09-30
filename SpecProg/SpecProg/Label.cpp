@@ -1,5 +1,9 @@
 #include "Label.h"
 
+std::string removeLastChar(std::string str) {
+	return (&str == nullptr || str.length() == 0) ? NULL : (str.substr(0, str.length() - 1));
+}
+
 Label::Label(sf::Vector2f size, sf::Vector2f position, sf::Color colorBack, int fontSize):
 	rectangle(size)
 {
@@ -36,7 +40,30 @@ void Label::setText(std::string str)
 	this->text.setString(str);
 }
 
+void Label::deleteText()
+{
+	std::string str = removeLastChar(text.getString());
+	text.setString(str);
+}
+
 void Label::setTitleText(std::string str)
 {
 	this->textTitle.setString(str);
 }
+
+std::string Label::getText()
+{
+	return text.getString();
+}
+
+sf::RectangleShape& Label::getRectangle()
+{
+	return this->rectangle;
+}
+
+void Label::addText(std::string str)
+{
+	std::string base_str = text.getString();
+	text.setString(base_str + str);
+}
+

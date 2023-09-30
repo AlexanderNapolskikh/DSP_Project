@@ -19,6 +19,8 @@ private:
 	std::vector<Label> dBLabel;
 	// Clear, stop flag
 	bool flagClS = false;
+	// Active Field
+	Label *activeField = nullptr;
 
 public:
 	DigitalApp();

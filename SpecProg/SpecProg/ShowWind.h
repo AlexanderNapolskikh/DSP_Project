@@ -9,8 +9,10 @@ class ShowWind
 {
 
 private:
+	// Внутрення часть
 	Grid grid;
-	Polyline polyline;
+	// Polyline polyline;
+	// Каркас
 	sf::RectangleShape rectangle;
 	sf::Vector2f position;
 

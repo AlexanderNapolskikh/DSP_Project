@@ -146,6 +146,7 @@
     <ClCompile Include="Label.cpp" />
     <ClCompile Include="Polyline.cpp" />
     <ClCompile Include="RadioButton.cpp" />
+    <ClCompile Include="RisGraph.cpp" />
     <ClCompile Include="ShowWind.cpp" />
     <ClCompile Include="SpecProg.cpp" />
   </ItemGroup>
@@ -161,6 +162,7 @@
     <ClInclude Include="Label.h" />
     <ClInclude Include="Polyline.h" />
     <ClInclude Include="RadioButton.h" />
+    <ClInclude Include="RisGraph.h" />
     <ClInclude Include="ShowWind.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

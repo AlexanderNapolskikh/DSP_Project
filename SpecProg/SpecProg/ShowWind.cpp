@@ -1,7 +1,8 @@
 #include "ShowWind.h"
 
 ShowWind::ShowWind(sf::Vector2f size, sf::Vector2f position, sf::Color colorBack, sf::Color colorÑontour) :
-	rectangle(size)
+	rectangle(size),
+	grid(SIZE_OLINEX, SIZE_OLINEY, sf::Vector2f(position.x + LINE_DEL, position.y + LINE_DEL))
 {
 	// Synchronization of fields
 	this->position = position;
@@ -26,4 +27,5 @@ void ShowWind::zoomOut()
 void ShowWind::render(sf::RenderWindow& window)
 {
 	window.draw(rectangle);
+	grid.render(window);
 }

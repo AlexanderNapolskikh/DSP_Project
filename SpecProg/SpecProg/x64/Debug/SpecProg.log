@@ -1,0 +1,6 @@
+﻿  ShowWind.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SpecProg.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  SpecProg.vcxproj -> C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\x64\Debug\SpecProg.exe

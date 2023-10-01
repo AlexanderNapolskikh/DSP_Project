@@ -1,0 +1,82 @@
+﻿  Button.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+  CtrlPan.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\CtrlPan.cpp(25,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\CtrlPan.cpp(25,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  DigitalApp.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(12,116): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(14,114): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(59,69): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(59,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Grid.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+  Label.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Label.cpp(31,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  RadioButton.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\RadioButton.cpp(5,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\RadioButton.cpp(19,74): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\RadioButton.cpp(19,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  ShowWind.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)
+  SpecProg.cpp
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream(20,1): error C2447: '{': missing function header (old-style formal list?)

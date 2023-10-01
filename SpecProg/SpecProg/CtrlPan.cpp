@@ -63,6 +63,11 @@ void CtrlPan::newEvent(sf::Event& event)
 
 	}
 
+	// Добавление шума
+	if (noiseBut.getCircle().getGlobalBounds().contains(localPosition)) {
+
+		noiseBut.setActive(!noiseBut.getAcive());
+	}
 }
 
 void CtrlPan::switchingLoad()

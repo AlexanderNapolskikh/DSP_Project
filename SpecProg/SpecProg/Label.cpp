@@ -1,7 +1,7 @@
 #include "Label.h"
 
 std::string removeLastChar(std::string str) {
-	return (&str == nullptr || str.length() == 0) ? NULL : (str.substr(0, str.length() - 1));
+	return (&str == nullptr || str.length() == 0) ? nullptr : (str.substr(0, str.length() - 1));
 }
 
 Label::Label(sf::Vector2f size, sf::Vector2f position, sf::Color colorBack, int fontSize):

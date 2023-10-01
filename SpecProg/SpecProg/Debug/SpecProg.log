@@ -1,11 +1,12 @@
-﻿  CtrlPan.cpp
+﻿  RadioButton.cpp
 C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(9,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\CtrlPan.cpp(25,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\RadioButton.cpp(5,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\RadioButton.cpp(19,74): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\CtrlPan.cpp(25,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\RadioButton.cpp(19,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float

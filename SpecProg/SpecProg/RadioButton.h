@@ -10,6 +10,7 @@ class RadioButton
 private:
 	// Shape
 	sf::CircleShape circle;
+	sf::CircleShape circleIn;
 	float radius;
 	// Position
 	sf::Vector2f position;

@@ -1,7 +1,8 @@
 #include "RadioButton.h"
 
 RadioButton::RadioButton(float radius, sf::Vector2f position, sf::Color colorBack, sf::Color colorFont, int fontSize) :
-	circle(radius)
+	circle(radius),
+	circleIn(radius / 2.4)
 {
 	this->position = position;
 	this->radius = radius;
@@ -13,11 +14,17 @@ RadioButton::RadioButton(float radius, sf::Vector2f position, sf::Color colorBac
 	circle.setPosition(position);
 	circle.setOutlineColor(sf::Color::Black);
 	circle.setOutlineThickness(3);
+
+	circleIn.setFillColor(sf::Color::Black);
+	circleIn.setPosition(sf::Vector2f(position.x + radius / 1.8, position.y + radius / 1.8));
 }
 
 void RadioButton::render(sf::RenderWindow& window)
 {
 	window.draw(circle);
+	if (active) {
+		window.draw(circleIn);
+	}
 
 	text.setFont(font);
 	font.loadFromFile("arial.ttf");
@@ -62,7 +69,6 @@ sf::Color RadioButton::getBackColor()
 void RadioButton::setActive(bool status)
 {
 	active = status;
-	(active) ? setText("Start") : setText("Stop");
 }
 
 bool RadioButton::getAcive()

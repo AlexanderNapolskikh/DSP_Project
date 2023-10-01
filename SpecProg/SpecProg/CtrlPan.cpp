@@ -26,9 +26,81 @@ void CtrlPan::newEvent(sf::Event& event)
 
 	if (actButton.getRectangle().getGlobalBounds().contains(localPosition)) {
 
-		actButton.setActive(!actButton.getAcive());
+		switchingTrigger();
+	}
+	
+	//Кнопки режимов работы
+	if (!actButton.getAcive()) {
+
+		operMode = 0;
+
+		if (loadSignalBut.getRectangle().getGlobalBounds().contains(localPosition) ) {
+
+			switchingLoad();
+
+			if (microBut.getAcive()) {
+
+				switchingMicro();
+			}
+
+			if (loadSignalBut.getAcive()) {
+				operMode = 1;
+			}
+		}
+		else if (microBut.getRectangle().getGlobalBounds().contains(localPosition)) {
+
+			switchingMicro();
+
+			if (loadSignalBut.getAcive()) {
+
+				switchingLoad();
+			}
+
+			if (microBut.getAcive()) {
+				operMode = 2;
+			}
+		}
+
 	}
 
+}
+
+void CtrlPan::switchingLoad()
+{
+	// Установка активности
+	loadSignalBut.setActive(!loadSignalBut.getAcive());
+
+	// On-off 
+	sf::Color bufColor = loadSignalBut.getBackColor();
+
+	loadSignalBut.changeBackColor(loadSignalBut.getFontColor());
+	loadSignalBut.changeFontColor(bufColor);
+}
+
+void CtrlPan::switchingMicro()
+{
+	// Установка активности
+	microBut.setActive(!microBut.getAcive());
+
+	// On-off 
+	sf::Color bufColor = microBut.getBackColor();
+
+	microBut.changeBackColor(microBut.getFontColor());
+	microBut.changeFontColor(bufColor);
+}
+
+void CtrlPan::switchingTrigger()
+{
+	actButton.setActive(!actButton.getAcive());
+
+	if (!actButton.getAcive()) {
+		actButton.setText("Start");
+		actButton.changeBackColor(sf::Color::Color(0, 250, 154));
+	}
+	else {
+		actButton.setText("Stop_");
+		actButton.changeBackColor(sf::Color::Color(178, 34, 34));
+	}
 }
 
 bool CtrlPan::getActive()

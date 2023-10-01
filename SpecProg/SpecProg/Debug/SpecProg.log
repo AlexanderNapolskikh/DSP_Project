@@ -1,21 +1,11 @@
-﻿  DigitalApp.cpp
+﻿  CtrlPan.cpp
 C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(9,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(12,116): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\CtrlPan.cpp(25,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(14,114): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ]
-C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(59,69): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(59,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\CtrlPan.cpp(25,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float

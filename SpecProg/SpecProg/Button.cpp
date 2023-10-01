@@ -62,15 +62,6 @@ sf::Color Button::getBackColor()
 void Button::setActive(bool status)
 {
 	active = status;
-
-	if (!active) {
-		setText("Start");
-		changeBackColor(sf::Color::Color(0, 250, 154));
-	}
-	else {
-		setText("Stop_");
-		changeBackColor(sf::Color::Color(178, 34, 34));
-	}
 }
 
 bool Button::getAcive()

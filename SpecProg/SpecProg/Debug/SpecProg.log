@@ -1,3 +1,23 @@
-﻿  ShowWind.cpp
+﻿  DigitalApp.cpp
 C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\Config.h(11,33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(14,116): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(16,114): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(61,69): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\SpecProg\DigitalApp.cpp(61,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   SpecProg.vcxproj -> C:\Users\user\Desktop\IT-Step\DSP_Project\SpecProg\Debug\SpecProg.exe

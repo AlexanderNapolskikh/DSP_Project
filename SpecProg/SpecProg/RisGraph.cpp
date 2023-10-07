@@ -9,7 +9,6 @@ RisGraph::RisGraph(sf::Vector2f size, sf::Vector2f position, int fontSize):
 
 	rectangle.setFillColor(sf::Color::Black);
 	rectangle.setPosition(position);
-	text.setPosition(position.x + (size.x / 2) - fontSize * text.getString().getSize() / 4, position.y - 10);
 }
 
 void RisGraph::render(sf::RenderWindow& window)
@@ -31,5 +30,5 @@ void RisGraph::setText(std::string str)
 
 void RisGraph::setPositionText(sf::Vector2f position)
 {
-	text.setPosition(position);
+	text.setPosition(sf::Vector2f(position.x, position.y - 5));
 }

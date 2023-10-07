@@ -2,8 +2,10 @@
 
 DigitalApp::DigitalApp() :
 	window(sf::VideoMode(WIDTH_WIND, HEIGHT_WIND), "(-_Spectrum Analyzer_-)"),
-	upGraph(sf::Vector2f(W_WINDS,H_WINDS), sf::Vector2f(W_WINDS/8, H_WINDS/6), sf::Color::Color(255, 255, 240), sf::Color::Black),
-	lowGraph(sf::Vector2f(W_WINDS, H_WINDS), sf::Vector2f(W_WINDS/8, (H_WINDS/4) + H_WINDS), sf::Color::Color(255, 255, 240), sf::Color::Black)
+	// Signal
+	upGraph(sf::Vector2f(W_WINDS,H_WINDS), sf::Vector2f(W_WINDS/8, H_WINDS/6), sf::Vector2f( (W_WINDS / 8), (H_WINDS / 6) + SIZE_OLINEY.y / 2 - 3), sf::Color::Color(255, 255, 240), sf::Color::Black),
+	// Spectrum 
+	lowGraph(sf::Vector2f(W_WINDS, H_WINDS), sf::Vector2f(W_WINDS/8, (H_WINDS/4) + H_WINDS), sf::Vector2f(W_WINDS / 8, (H_WINDS / 4) + H_WINDS), sf::Color::Color(255, 255, 240), sf::Color::Black)
 {
 	
 	// Create_label (freq, dB)
@@ -14,8 +16,8 @@ DigitalApp::DigitalApp() :
 		dBLabel.push_back(Label(SIZE_LABEL, sf::Vector2f(WIDTH_WIND/1.22, HEIGHT_WIND / 3 + i * (DISTANCE+SIZE_LABEL.y)), sf::Color::Color(240, 255, 255), 16));
 		dBLabel[i].setTitleText("dB_" + std::to_string(i+1));
 	}
-
-	// Default
+	
+	// Defaults
 	// __________________________
 	// _freq_
 	freqLabel[0].setText("440");
@@ -115,8 +117,10 @@ void DigitalApp::render()
 {
 	window.clear(sf::Color::Color(0, 139, 139));
 
+	// Draw box-wind
 	upGraph.render(window);
 	lowGraph.render(window);
+
 	controls.render(window);
 	
 	// Label draw (freq)
@@ -138,7 +142,7 @@ void DigitalApp::render()
 
 void DigitalApp::start()
 {
-
+	
 }
 
 void DigitalApp::stop()

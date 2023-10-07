@@ -30,3 +30,6 @@ const sf::Vector2f SIZE_OLINEY = sf::Vector2f(3, H_WINDS - 2 * LINE_DEL);
 const sf::Vector2f SIZE_RISX = sf::Vector2f(1, H_WINDS - 2 * LINE_DEL);
 const sf::Vector2f SIZE_RISY = sf::Vector2f(W_WINDS - 2 * LINE_DEL, 1);
 const int DEL = 10;
+
+// Rad_polyline_el
+const int RADPOL = 5;

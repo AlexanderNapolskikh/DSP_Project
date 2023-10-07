@@ -4,7 +4,6 @@
 
 class Grid
 {
-
 private:
 	// Начальная точка расхождения координатной сетки
 	sf::Vector2f startO_XY;
@@ -17,7 +16,8 @@ private:
 
 public:
 
-	Grid(sf::Vector2f sizeX, sf::Vector2f sizeY, sf::Vector2f position);
+	// Grid содержит 2 размера осей X && Y; позиции массива делений; позиция центральной оси
+	Grid(sf::Vector2f sizeX, sf::Vector2f sizeY, sf::Vector2f position, sf::Vector2f posCenter);
 	void render(sf::RenderWindow& window);
 };
 

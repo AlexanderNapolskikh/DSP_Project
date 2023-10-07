@@ -11,15 +11,15 @@ class ShowWind
 private:
 	// Внутрення часть
 	Grid grid;
-	// Polyline polyline;
+	Polyline polyline;
 	// Каркас
 	sf::RectangleShape rectangle;
 	sf::Vector2f position;
 
 public:
-	ShowWind(sf::Vector2f size, sf::Vector2f position, sf::Color colorBack, sf::Color colorСontour);
-	void zoomIn();
-	void zoomOut();
+	ShowWind(sf::Vector2f size, sf::Vector2f position, sf::Vector2f gridPos, sf::Color colorBack, sf::Color colorСontour);
+	//void zoomIn();
+	//void zoomOut();
 	void render(sf::RenderWindow& window);
 
 };
